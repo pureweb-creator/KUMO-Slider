@@ -6,7 +6,8 @@ $(document).ready(function(){
 	  fade: true,
 	  speed: 900,
 	  asNavFor: '.slider-nav',
-	  initialSlide: 1
+	  initialSlide: 1,
+	  autoplay: true
 	});
 	$('.slider-nav').slick({
 	  slidesToShow: 3,
@@ -22,6 +23,7 @@ $(document).ready(function(){
 	  verticalSwiping: true,
 	  infinite: false,
 	  swipeToSlide: true,
+	  autoplay: true,
 	  responsive: [
 	    {
 	      breakpoint: 600,
