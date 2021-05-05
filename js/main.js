@@ -7,7 +7,15 @@ $(document).ready(function(){
 	  speed: 900,
 	  asNavFor: '.slider-nav',
 	  initialSlide: 1,
-	  autoplay: true
+	  responsive: [
+	    {
+	      breakpoint: 600,
+	      settings: {
+	        initialSlide: 2,
+	      }
+	    }
+	   ]
+	  // autoplay: true
 	});
 	$('.slider-nav').slick({
 	  slidesToShow: 3,
@@ -23,12 +31,13 @@ $(document).ready(function(){
 	  verticalSwiping: true,
 	  infinite: false,
 	  swipeToSlide: true,
-	  autoplay: true,
+	  // autoplay: true,
 	  responsive: [
 	    {
 	      breakpoint: 600,
 	      settings: {
-	        slidesToShow: 1
+	        slidesToShow: 1,
+	        initialSlide: 2,
 	      }
 	    }
 	   ]

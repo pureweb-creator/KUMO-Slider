@@ -7,6 +7,10 @@ html,body{
 	overflow-x: hidden;
 }
 
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+
 .section-title{
 	font-family: Roboto Mono, sans-serif;	
 }
@@ -29,7 +33,6 @@ html,body{
 }
 
 .industries-slider{
-	/*width: 50%;*/
 	display: flex;
 	margin-left: auto;
 }
@@ -37,10 +40,6 @@ html,body{
 .slider-for{
 	width: 50%;
 }
-/*
-.slider-for .slick-slide{
-	transition: all .3s ease;
-}*/
 
 .industries-slider .slider-nav{
 	text-transform: uppercase;
@@ -63,10 +62,6 @@ html,body{
 	font-size: 58px;
 }
 
-/*.industries-slider__nav .slick-slide[tabindex="-1"]{
-	opacity: .3;
-}*/
-
 .industries-slider__nav .slick-slide.slick-current+.slick-slide+.slick-slide+.slick-slide,
 .industries-slider__nav .slick-slide.slick-current+.slick-slide+.slick-slide+.slick-slide+.slick-slide,
 .industries-slider__nav .slick-slide.slick-current+.slick-slide+.slick-slide+.slick-slide+.slick-slide+.slick-slide{
@@ -83,7 +78,7 @@ html,body{
 	}
 	.industries-slider__nav .slick-slide{
 		font-size: 20px;
-		margin: 5px 0;
+		margin: 8px 0;
 	}
 
 	.industries-slider__nav .slick-slide.slick-current{
@@ -93,6 +88,8 @@ html,body{
 	.industries-slider .slider-for{
 		width: 70%;
 		margin-left: auto;
+		position: relative;
+		top: 20px;
 	}
 
 	.industries-slider .slider-nav{
@@ -104,5 +101,4 @@ html,body{
 	.industries-slider__nav .slick-slide.slick-current+.slick-slide+.slick-slide{
 		opacity: .3 !important
 	}
-
 }
