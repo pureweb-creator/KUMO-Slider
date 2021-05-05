@@ -55,7 +55,7 @@ html,body{
 	color: #CCCCCC;
 	font-size: 32px;
 	transition: all .6s ease;
-	margin: 10px 0;
+	margin: 11px 0;
 	cursor: pointer;
 }
 .industries-slider__nav .slick-slide.slick-current{
