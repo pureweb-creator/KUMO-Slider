@@ -96,7 +96,7 @@ html,body{
 	}
 
 	.industries-slider .slider-nav{
-		width: calc(100%-19px);
+		width: 95%;
 		position: absolute;
 		left: 19px;
 	}
