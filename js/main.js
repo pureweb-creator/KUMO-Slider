@@ -14,8 +14,8 @@ $(document).ready(function(){
 	        initialSlide: 2,
 	      }
 	    }
-	   ]
-	  // autoplay: true
+	   ],
+	  autoplay: true
 	});
 	$('.slider-nav').slick({
 	  slidesToShow: 3,
@@ -31,7 +31,7 @@ $(document).ready(function(){
 	  verticalSwiping: true,
 	  infinite: false,
 	  swipeToSlide: true,
-	  // autoplay: true,
+	  autoplay: true,
 	  responsive: [
 	    {
 	      breakpoint: 600,
