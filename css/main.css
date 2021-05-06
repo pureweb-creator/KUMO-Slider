@@ -81,12 +81,19 @@ html,body{
 		margin-bottom: 30px;
 	}
 	.industries-slider__nav .slick-slide{
-		font-size: 20px;
-		margin: 8px 0;
+		font-size: 18px;
+		margin: 5px 0;
+	}
+
+	.industries-slider__nav .slick-slide,
+	.industries-slider__nav .slick-slide > div,
+	.industries-slider__nav .slick-slide > div > div{
+		outline: none !important;
+		border: none !important;
 	}
 
 	.industries-slider__nav .slick-slide.slick-current{
-		font-size: 30px;
+		font-size: 27px;
 	}
 
 	.industries-slider .slider-for{
