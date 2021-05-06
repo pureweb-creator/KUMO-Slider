@@ -51,6 +51,11 @@ html,body{
     z-index: 9;
 }
 
+.slider-nav .slick-slide[data-slick-index="0"]{
+	opacity: 0;
+	visibility: hidden;
+}
+
 .industries-slider__nav .slick-slide{
 	color: #CCCCCC;
 	font-size: 32px;
